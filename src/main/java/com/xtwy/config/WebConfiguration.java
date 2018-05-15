@@ -1,4 +1,4 @@
-package com.xtwy.filter;
+package com.xtwy.config;
 
 import java.io.IOException;
 
@@ -14,6 +14,8 @@ import org.apache.catalina.filters.RemoteIpFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import com.xtwy.filter.MyFilter;
 
 /**
  * 
